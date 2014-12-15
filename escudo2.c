@@ -43,3 +43,7 @@ void handler(int sig){
   _exit(EXIT_SUCCESS);
 }
 
+/* Webgrafia:
+   - www.tutorialspoint.com/c_standard_library/c_function_signal.htm
+
+   para saber que se puede invocar una funcion cuando se maneja la señal */

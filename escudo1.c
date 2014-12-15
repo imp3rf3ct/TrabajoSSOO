@@ -5,8 +5,8 @@
 
 #include <stdio.h>
 #include <signal.h> /*Libreria de signal*/
-#include <stdlib.h>
-#include <string.h>
+#include <stdlib.h> /* macros EXIT_FAILURE & EXIT_SUCCESS */
+#include <string.h> /* strcmp() */
 int main(int argc, char *argv[]){
   int sig;
 

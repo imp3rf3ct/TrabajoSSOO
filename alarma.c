@@ -50,3 +50,6 @@ int main(int argc, char *argv[]){
 }
 
 void handler(int sig){}
+/*Webgrafia:
+   - http://nideaderedes.urlansoft.com/2009/10/19/procesos-en-c-ejemplo-de-un-sencillo-cronometro/ 
+   Es un ejemplo basico de como hacer un cronometro y explica muy bien como llamar al sistema mediante alarm()*/

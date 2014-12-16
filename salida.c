@@ -17,7 +17,7 @@ int main(int argc, char *argv[]){
   int fd;
   char path[MAXPATH];
 
-  /* Controlar numero de argumentos */
+  /* Controlar el numero de argumentos */
   if(argc < 3){
     fprintf(stderr,"Invalid number of arguments, use entrada <file> <program> [arg1,arg2,...,argN]\n");
     _exit(EXIT_FAILURE);
